@@ -1,0 +1,8 @@
+# Danh sách thư viện Python cần cài
+# requests       -> Gửi yêu cầu HTTP để lấy dữ liệu web
+# beautifulsoup4 -> Phân tích HTML, tìm thẻ chứa giá
+# schedule       -> Lên lịch chạy định kỳ (ví dụ 60 phút/lần)
+
+requests
+beautifulsoup4
+schedule
