@@ -2,7 +2,7 @@
 import json, os, requests
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
-from config import (
+from price_checker.config import (
     HEADERS, SELECTOR_BY_DOMAIN, AUTO_LEARN_SELECTORS,
     MIN_SELECTOR_SCORE, SELECTOR_CACHE_PATH
 )
