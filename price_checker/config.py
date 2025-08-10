@@ -8,16 +8,14 @@ PRODUCTS = {
         "https://www.anphatpc.com.vn/laptop-msi-katana-15-b13udxk-2410vn.html",
         "https://fptshop.com.vn/may-tinh-xach-tay/msi-gaming-katana-15-b13udxk-2410vn-i5-13420h",
     ],
-    "ipad_air": [
-        "https://example.com/product/ipad-air",
-    ],
+    
 }
 
 # CSS selector để tìm thẻ chứa giá dựa theo tên miền
 # Ví dụ: "span.price" nghĩa là <span class="price">...</span>
 SELECTOR_BY_DOMAIN = {
-    "https://www.anphatpc.com.vn/": "span.price",
-    "https://fptshop.com.vn/": "div#product-price",
+    "anphatpc.com.vn": "",
+    "fptshop.com.vn": "",
 }
 
 # Header giả lập trình duyệt khi gửi request
