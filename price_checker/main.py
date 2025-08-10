@@ -3,9 +3,10 @@
 # ================================
 import time
 import schedule
-from config import PRODUCTS, CRON_INTERVAL_MIN
-from db import init_db, save_price
-from scraper.parser import get_price
+from price_checker.config import PRODUCTS, CRON_INTERVAL_MIN
+from price_checker.db import init_db, save_price
+from price_checker.scraper.parser import get_price
+
 
 def check_prices():
     """Duyệt qua PRODUCTS, lấy giá từng URL và lưu DB."""
