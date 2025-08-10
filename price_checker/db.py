@@ -3,7 +3,7 @@
 # ================================
 import sqlite3
 from datetime import datetime
-from config import DB_PATH
+from price_checker.config import DB_PATH
 
 # Tạo bảng lưu giá nếu chưa có
 def init_db():
