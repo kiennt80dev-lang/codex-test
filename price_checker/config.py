@@ -16,8 +16,8 @@ PRODUCTS = {
 # CSS selector để tìm thẻ chứa giá dựa theo tên miền
 # Ví dụ: "span.price" nghĩa là <span class="price">...</span>
 SELECTOR_BY_DOMAIN = {
-    "example.com": "span.price",
-    "another-shop.com": "div#product-price",
+    "https://www.anphatpc.com.vn/": "span.price",
+    "https://fptshop.com.vn/": "div#product-price",
 }
 
 # Header giả lập trình duyệt khi gửi request
@@ -28,3 +28,7 @@ CRON_INTERVAL_MIN = 60
 
 # Đường dẫn lưu file database SQLite (tạo ngay trong thư mục chạy)
 DB_PATH = "prices.db"
+# Tự học selector nếu chưa có trong SELECTOR_BY_DOMAIN
+AUTO_LEARN_SELECTORS = True
+MIN_SELECTOR_SCORE = 7         # ngưỡng chấm điểm tối thiểu để chấp nhận
+SELECTOR_CACHE_PATH = "selectors_cache.json"  # nơi lưu cache selector đã học
