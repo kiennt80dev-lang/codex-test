@@ -4,9 +4,9 @@
 
 # Danh sách sản phẩm & các link cần kiểm tra giá (THAY URL THẬT)
 PRODUCTS = {
-    "iphone_14": [
-        "https://example.com/product/iphone-14",
-        "https://another-shop.com/iphone-14",
+    "B13UDXK-2410VN": [
+        "https://www.anphatpc.com.vn/laptop-msi-katana-15-b13udxk-2410vn.html",
+        "https://fptshop.com.vn/may-tinh-xach-tay/msi-gaming-katana-15-b13udxk-2410vn-i5-13420h",
     ],
     "ipad_air": [
         "https://example.com/product/ipad-air",
