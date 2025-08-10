@@ -6,7 +6,8 @@ from config import (
     HEADERS, SELECTOR_BY_DOMAIN, AUTO_LEARN_SELECTORS,
     MIN_SELECTOR_SCORE, SELECTOR_CACHE_PATH
 )
-from ..auto_selector import find_best
+from price_checker.auto_selector import find_best
+
 
 # tải/lưu cache selector đã học
 def _load_cache():
